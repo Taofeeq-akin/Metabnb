@@ -1,4 +1,4 @@
-import classes from "./Header.module.css";
+import classes from "./HeaderNav.module.css";
 import NavLogo from "../../Assets/Group.png"
 
 const HeaderNav = () => {
@@ -21,7 +21,7 @@ const HeaderNav = () => {
           </li>
         </ul>
       </nav>
-      <button className={classes.connect_wallet}>Connet wallet</button>
+      <button className={classes.connect_wallet}>Connect wallet</button>
     </header>
   );
 };

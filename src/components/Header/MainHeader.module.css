@@ -1,0 +1,73 @@
+.main_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading_primary {
+  font-size: 5.4rem;
+  letter-spacing: 1;
+  margin-bottom: 2.5rem;
+}
+
+.header_content {
+    padding-right: 9rem;
+}
+
+.header_text {
+    font-size: 2.4rem;
+    color: #434343;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.header_img_container {
+  display: flex;
+  row-gap: 0;
+  margin-right: 3rem;
+}
+
+.header_img {
+  width: 20rem;
+  height: 17rem;
+}
+
+.headerImg {
+  max-width: fit-content;
+  margin-right: 0.5rem;
+}
+
+.headerImg1 {
+  margin-top: 7rem;
+}
+
+.purple_col {
+    color: #A02279;
+}
+
+.input_con {
+    border: rgb(194, 194, 194) 0.2rem solid;
+    border-radius: 0.9rem;
+    width: 55rem;
+    display: flex;
+}
+
+.search_input {
+    width: 35rem;
+    padding: 1.5rem;
+    color: rgb(194, 194, 194);
+    font-size: 1.3rem;
+    border: none;
+}
+
+.search_btn {
+    width: 20rem;
+    margin: -0.2rem;
+    height: 5.2rem;
+    color: #fff;
+    background-color: #A02279;
+    cursor: pointer;
+    border-end-end-radius: 0.9rem;
+    border-start-end-radius: 0.9rem;
+    
+    border: none;
+}
