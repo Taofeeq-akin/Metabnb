@@ -9,7 +9,7 @@ import headerImg4 from "../../Assets/Frame 151-9.png";
 
 const MainHeader = () => {
   return (
-    <React.Fragment>
+    <React.Fragment className={classes.header_container}>
       <HeaderNav />
       <div className={classes.main_header}>
         <div className={classes.header_content}>
