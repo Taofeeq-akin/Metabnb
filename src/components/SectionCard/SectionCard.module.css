@@ -1,0 +1,28 @@
+.section_card {
+    background-color: #A02279;
+    margin: 0 -10rem;
+    padding: 10rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+}
+
+.section_card h2 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.section_card p {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.section_card button {
+    color: #A02279;
+    background-color: #fff;
+    padding: 1.2rem 2rem;
+    border: none;
+    border-radius: 0.9rem;
+}
