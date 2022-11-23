@@ -1,0 +1,21 @@
+.advt_container {
+  padding: 1rem;
+  border: 1px solid #b6b6b6;
+  border-radius: 1rem ;
+  width: 28.3rem;
+}
+
+.advt_container div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+}
+
+.advt_container div p {
+    font-size: 1.2rem;
+}
+
+.price {
+    font-weight: 500;
+    color: #000;
+}
