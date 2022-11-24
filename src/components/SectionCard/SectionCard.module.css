@@ -10,13 +10,13 @@
 }
 
 .section_card h2 {
-    font-size: 5rem;
+    font-size: 4.5rem;
     margin-bottom: 2rem;
 }
 
 .section_card p {
-    font-size: 1.5rem;
-    margin-bottom: 3rem;
+    font-size: 1.8rem;
+    margin-bottom: 5rem;
 }
 
 .section_card button {
@@ -25,4 +25,8 @@
     padding: 1.2rem 2rem;
     border: none;
     border-radius: 0.9rem;
+}
+
+.card_frame {
+    width: 55%;
 }

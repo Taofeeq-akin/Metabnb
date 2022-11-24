@@ -3,6 +3,7 @@ import MainHeader from "./components/Header/MainHeader";
 import SectionFeature from "./components/SectionFeature/SectionFeature";
 import SectionMain from "./components/MainSection/SectionMain";
 import SectionCard from "./components/SectionCard/SectionCard";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <SectionFeature />
       <SectionMain />
       <SectionCard />
+      <Footer />
     </div>
   );
 }

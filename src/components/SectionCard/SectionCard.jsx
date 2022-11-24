@@ -1,7 +1,5 @@
-import classes from './SectionCard.module.css'
-import card1 from "../../Assets/image 7.png" 
-import card2 from "../../Assets/image 8.png" 
-import card3 from "../../Assets/image 9.png" 
+import classes from "./SectionCard.module.css";
+import cards from "../../Assets/frame.png";
 
 const SectionCard = () => {
   return (
@@ -15,11 +13,7 @@ const SectionCard = () => {
         </p>
         <button>Learn more</button>
       </div>
-      <div>
-      <img src={card1} alt="card 1 img " />
-      <img src={card2} alt="caerd 2 img" />
-      <img src={card3} alt="card 3 img" />
-      </div>
+      <img src={cards} alt="card 1 img" className={classes.card_frame}/>
     </section>
   );
 };
