@@ -1,79 +1,88 @@
 .footer {
-    padding: 8rem 10rem 3rem 10rem;
-    margin: 0 -10rem;
-    background-color: #222;
-    color: #fff;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr) ;
-    gap: 10rem;
-  }
+  padding: 8rem 10rem 3rem 10rem;
+  margin: 0 -10rem;
+  background-color: #222;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10rem;
+}
 
-  .footer_logo {
-    height: 4rem;
-  }
-  
-  .footer_heading {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 2.5rem;
-  }
-  
-  .footer_nav {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 1.4rem;
-  }
-  
-  .footer_link:link,
-  .footer_link:visited {
-    text-decoration: none;
-    color: rgb(199, 199, 199);
-    font-size: 1.4rem;
-    transition: all 0.3s;
-  }
-  
-  .footer_link:active,
-  .footer_link:hover {
-    color: #555;
-  }
-  
-  .social_icon {
-    height: 2.4rem;
-    width: 2.4rem;
+.footer_logo {
+  height: 4rem;
+}
+
+.footer_heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+}
+
+.footer_nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.footer_link:link,
+.footer_link:visited {
+  text-decoration: none;
+  color: rgb(199, 199, 199);
+  font-size: 1.4rem;
+  transition: all 0.3s;
+}
+
+.footer_link:active,
+.footer_link:hover,
+.footer_social_link:active,
+.footer_social_link:hover {
+  color: #555;
+}
+
+.footer_social_link {
+  text-decoration: none;
+  color: rgb(199, 199, 199);
+  font-size: 3rem;
+  transition: all 0.3s;
+}
+
+.social_icon {
+  height: 5rem;
+    width: 10rem;
     color: #fff;
-  }
-  
-  .footer_logo {
-    display: block;
-    margin-bottom: 3.2rem;
-  }
-  
-  .logo-col {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .copyright {
-    font-size: 1.4rem;
-    color: #767676;
-    line-height: 1.6;
-    margin-top: auto;
-  }
-  
-  .contact {
-    font-size: 1.6rem;
-    line-height: 1.6;
-    font-style: normal;
-  }
-  
-  .address {
-    margin-bottom: 2.4rem;
-  }
-  
-  .social_links {
-    list-style: none;
-    display: flex;
-    gap: 2.4rem;
-    margin: 8rem 0 5rem 0;
-  }
+}
+
+.footer_logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  color: #767676;
+  line-height: 1.6;
+  margin-top: auto;
+}
+
+.contact {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-style: normal;
+}
+
+.address {
+  margin-bottom: 2.4rem;
+}
+
+.social_links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+  margin: 5rem 0 4rem 0;
+}

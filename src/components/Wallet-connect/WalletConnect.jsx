@@ -1,11 +1,11 @@
 import React from "react";
-import walletFrame from '../../Assets/Frame 37.png'
+import walletFrame from "../../Assets/Frame 37.png";
 import classes from "./WallectConnet.module.css";
 
-const WalletConnect = () => {
-//   const Backdrop = () => {
-//     return <div className={classes.backdrop} ></div>;
-//   };
+const WalletConnect = (props) => {
+  //   const Backdrop = () => {
+  //     return <div className={classes.backdrop} ></div>;
+  //   };
   {
     /* {ReactDOM.createPortal(
     <Backdrop onClear={props.onClear} />,
@@ -13,10 +13,17 @@ const WalletConnect = () => {
   )} */
   }
 
-  return <>
-  <div className={classes.backdrop} />
-  <img src={walletFrame} alt="Frame showing wallet to connect" className={classes.modal} />
-  </>;
+  return (
+    <>
+      <div className={classes.backdrop} onClick={props.onRemove} />
+      <img
+        src={walletFrame}
+        alt="Frame showing wallet to connect"
+        className={classes.modal}
+        onClick={props.onRemove}
+      />
+    </>
+  );
 };
 
 export default WalletConnect;

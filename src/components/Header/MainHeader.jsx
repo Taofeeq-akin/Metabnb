@@ -1,7 +1,6 @@
 import React from "react";
 import classes from "./MainHeader.module.css";
 import HeaderNav from "./HeaderNav";
-import WalletConnect from "../Wallet-connect/WalletConnect";
 
 import headerImg1 from "../../Assets/Frame 151-5.png";
 import headerImg2 from "../../Assets/Frame 151-15.png";
@@ -11,7 +10,6 @@ import headerImg4 from "../../Assets/Frame 151-9.png";
 const MainHeader = () => {
   return (
     <React.Fragment className={classes.header_container}>
-      <WalletConnect />
       <HeaderNav />
       <div className={classes.main_header}>
         <div className={classes.header_content}>

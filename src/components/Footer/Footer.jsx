@@ -8,8 +8,7 @@ const Footer = () => {
         <img src={logo} alt="Footer logo" className={classes.footer_logo} />
         <ul className={`${classes.social_links}`}>
           <li>
-            <a href="#" className={classes.footer_link}>
-              FFF
+            <a href="#" className={classes.footer_social_link}>
               <ion-icon
                 className={classes.social_icon}
                 name="logo-instagram"
@@ -17,8 +16,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="#" className={classes.footer_link}>
-              FFF
+            <a href="#" className={classes.footer_social_link}>
               <ion-icon
                 className={classes.social_icon}
                 name="logo-facebook"
@@ -26,8 +24,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="#" className={classes.footer_link}>
-              FFF
+            <a href="#" className={`${classes.footer_social_link}`}>
               <ion-icon
                 className={classes.social_icon}
                 name="logo-twitter"
